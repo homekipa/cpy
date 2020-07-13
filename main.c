@@ -2,8 +2,6 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
-#include <dirent.h> // for directory open
-//#include <unistd.h>
 #include <string.h>
 
 int check_file_size(FILE *fd);
